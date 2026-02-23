@@ -1,0 +1,33 @@
+:root{
+    --header-txt: #7D7D7D ;
+    --theme-txt: #B4AD9E;
+    --article-txt: #626262;
+}
+.nav-panel{
+    text-align: center;
+}
+.nav-panel li{
+    display: inline-flex;
+     text-indent: 100px;
+}   
+.nav-panel a{
+    text-decoration: none;
+    color: var(--header-txt);
+    font-family: Playfair Display ;
+}
+.article-theme {
+    color: var(--theme-txt);
+    font-family: Ubuntu;    
+    font-weight: lighter;
+}
+.article-name{
+    color: var(--article-txt);
+    font-family: Playfair Display ;
+    font-weight: normal;
+}
+
+.article-content{
+    color: var(--article-txt);
+    font-family: Playfair Display ;
+    font-weight: normal;
+}
